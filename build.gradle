@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id "org.springframework.boot" version "2.0.4.RELEASE"
+    id "org.springframework.boot" version "1.4.3.RELEASE"
 }
 
 group 'com.kremnev.countries-of-the-world'
@@ -13,6 +13,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.4.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
 }
