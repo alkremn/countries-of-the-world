@@ -6,11 +6,11 @@ import java.util.List;
 public class Country {
 
     private String name;
-    private long population;
+    private String population;
     private String capitalCity;
     private List<String> officialLangList;
 
-    public Country(String name, long population, String capitalCity, List<String> officialLang) {
+    public Country(String name, String population, String capitalCity, List<String> officialLang) {
         this.name = name;
         this.population = population;
         this.capitalCity = capitalCity;
@@ -25,11 +25,11 @@ public class Country {
         this.name = name;
     }
 
-    public long getPopulation() {
+    public String getPopulation() {
         return population;
     }
 
-    public void setPopulation(long population) {
+    public void setPopulation(String population) {
         this.population = population;
     }
 
