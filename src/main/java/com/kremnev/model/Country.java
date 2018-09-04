@@ -33,6 +33,16 @@ public class Country {
         this.population = population;
     }
 
+    public int getPopulationInt() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (char c : population.toCharArray()) {
+            if (c != ',') {
+                stringBuilder.append(c);
+            }
+        }
+        return Integer.parseInt(stringBuilder.toString());
+    }
+
     public String getCapitalCity() {
         return capitalCity;
     }
