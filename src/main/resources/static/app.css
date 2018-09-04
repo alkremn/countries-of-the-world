@@ -111,6 +111,33 @@ img {
 	color: #65AB8A;
 }
 
+h3{
+    color:#473939;
+    margin: 10px 0px;
+}
+
+.name {
+    background-color:#C2C9CF;
+}
+
+.population {
+    background-color:#AFD274;
+}
+
+.sort div {
+    display: inline-block;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5%;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+a {
+    color:#473939;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 601px) {
 	header {
 		text-align: left;
