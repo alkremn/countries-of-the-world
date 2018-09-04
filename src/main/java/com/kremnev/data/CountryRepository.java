@@ -3,6 +3,7 @@ package com.kremnev.data;
 import com.kremnev.model.Country;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,7 +19,7 @@ public class CountryRepository {
     );
 
     public List<Country> getAllCountries(){
-        return ALL_COUNTRIES;
+        return new ArrayList<>(ALL_COUNTRIES);
     }
 
     public Country findCountryByName(final String name){
